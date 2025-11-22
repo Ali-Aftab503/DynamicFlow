@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "PRISMA_GENERATE_SKIP_AUTOINSTALL": "1"
+  }
+}
